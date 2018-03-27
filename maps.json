@@ -1,0 +1,774 @@
+"maps"{
+  "tier_1":{
+    "dungeon":{
+      "connections":[
+        "flooded mines"
+      ]
+    },
+    "graveyard":{
+      "connections":[
+        "marshes"
+      ]
+    },
+    "lookout":{
+      "connections":[
+        "pen",
+        "alleyways"
+      ]
+    },
+    "beach":{
+      "connections":[
+        "desert",
+        "arid lake"
+      ]
+    }
+  },
+  "tier_2":{
+    "desert":{
+      "connections":[
+        "iceberg"
+      ]
+    },
+    "arid lake":{
+      "connections":[
+        "peninsula"
+      ]
+    },
+    "flooded mines":{
+      "connections":[
+        "cells",
+        "excavation",
+        "leyline"
+      ]
+    },
+    "marshes":{
+      "connections":[
+        "springs",
+        "burial chambers"
+      ]
+    },
+    "alleyways":{
+      "connections":[
+        "cage",
+        "arcade",
+        "port"
+      ]
+    },
+    "pen":{
+      "connections":[
+        "cage"
+      ]
+    }
+  },
+  "tier_3":{
+    "burial chambers":{
+      "connections":[
+        "relic chambers"
+      ]
+    },
+    "cage":{
+      "connections":[
+        "courthouse",
+        "city square"
+      ]
+    },
+    "arcade":{
+      "connections":[
+        "courthouse"
+      ]
+    },
+    "port":{
+      "connections":[
+        "lighthouse"
+      ]
+    },
+    "iceberg":{
+      "connections":[
+        "strand"
+      ]
+    },
+    "peninsula":{
+      "connections":[
+        "strand",
+        "canyon"
+      ]
+    },
+    "cells":{
+      "connections":[
+        "grotto"
+      ]
+    },
+    "excavation":{
+      "connections":[
+        "gorge",
+        "grotto"
+      ]
+    },
+    "leyline":{
+      "connections":[
+        "gorge",
+        "volcano"
+      ]
+    },
+    "springs":{
+      "connections":[
+        "chateau"
+      ]
+    }
+  },
+  "tier_4":{
+    "grotto":{
+      "connections":[
+        "channel",
+        "maze"
+      ]
+    },
+    "gorge":{
+      "connections":[
+        "sulphur vents",
+        "channel"
+      ]
+    },
+    "volcano":{
+      "connections":[
+        "sulphur vents"
+      ]
+    },
+    "strand":{
+      "connections":[
+        "ancient city"
+      ]
+    },
+    "canyon":{
+      "connections":[
+        "spider lair"
+      ]
+    },
+    "lighthouse":{
+      "connections":[
+        "ivory temple"
+      ]
+    },
+    "courthouse":{
+      "connections":[
+        "ivory temple",
+        "haunted mansion"
+      ]
+    },
+    "city square":{
+      "connections":[
+        "haunted mansion",
+        "conservatory"
+      ]
+    },
+    "chateau":{
+      "connections":[
+          "toxic sewer",
+          "relic chambers"
+      ]
+    },
+    "relic chambers":{
+      "connections":[
+          "chateau",
+          "barrows"
+      ]
+    }
+  },
+  "tier_5":{
+      "conservatory":{
+        "connections":[
+            "academy"
+        ]
+      },
+      "haunted mansion":{
+        "connections":[
+            "wharf",
+            "academy"
+        ]
+      },
+      "ivory temple":{
+        "connections":[
+            "thicket",
+            "wharf"
+        ]
+      },
+      "spider lair":{
+        "connections":[
+            "jungle valley",
+            "thicket",
+            "fields"
+        ]
+      },
+      "ancient city":{
+        "connections":[
+          "fields"
+        ]
+      },
+      "maze":{
+        "connections":[
+            "underground sea"
+        ]
+      },
+      "channel":{
+        "connections":[
+            "atoll",
+            "underground sea"
+        ]
+      },
+      "sulphur vents":{
+        "connections":[
+            "ashen wood",
+            "atoll"
+        ]
+      },
+      "barrows":{
+        "connections":[
+            "ashen wood",
+            "mausoleum"
+        ]
+      },
+      "toxic sewer":{
+        "connections":[
+            "cemetery",
+            "phantasmagoria"
+        ]
+      }
+  },
+  "tier_6":{
+    "academy":{
+      "connections":[
+          "tribunal",
+          "gardens"
+      ]
+    },
+    "wharf":{
+      "connections":[
+          "bazaar"
+      ]
+    },
+    "thicket":{
+      "connections":[
+          "arachnid nest"
+      ]
+    },
+    "jungle valley":{
+      "connections":[
+        "coral ruins",
+        "arachnid nest"
+      ]
+    },
+    "fields":{
+      "connections":[
+          "residence"
+      ]
+    },
+    "underground sea":{
+      "connections":[
+          "ramparts",
+          "underground river"
+      ]
+    },
+    "atoll":{
+      "connections":[
+          "ramparts"
+      ]
+    },
+    "ashen wood":{
+      "connections":[
+          "lava chamber"
+      ]
+    },
+    "mausoleum":{
+      "connections":[
+          "lava chamber"
+      ]
+    },
+    "cemetery":{
+      "connections":[
+          "bone crypt"
+      ]
+    },
+    "phantasmagoria":{
+      "connections":[
+          "dunes",
+          "bone crypt"
+      ]
+    }
+  },
+  "tier_7":{
+    "gardens":{
+      "connections":[
+        "tropical island"
+      ]
+    },
+    "tribunal":{
+      "connections":[
+          "vaal pyramid"
+      ]
+    },
+    "bazaar":{
+      "connections":[
+          "laboratory"
+      ]
+    },
+    "arachnid nest":{
+      "connections":[
+          "infested valley"
+      ]
+    },
+    "coral ruins":{
+      "connections":[
+        "infested valley"
+      ]
+    },
+    "residence":{
+      "connections":[
+          "courtyard"
+      ]
+    },
+    "underground river":{
+      "connections":[
+        "mineral pools",
+        "geode"
+      ]
+    },
+    "ramparts":{
+      "connections":[
+          "armoury"
+      ]
+    },
+    "lava chamber":{
+      "connections":[
+        "armoury",
+        "overgrown ruin"
+      ]
+    },
+    "bone crypt":{
+      "connections":[
+        "mud geyser"
+      ]
+    },
+    "dunes":{
+      "connections":[
+          "mud geyser",
+          "shore"
+      ]
+    }
+  },
+  "tier_8":{
+    "tropical island":{
+      "connections":[
+          "estuary",
+          "shore"
+      ]
+    },
+    "shore":{
+      "connections":[
+            "tropical island",
+            "tower"
+      ]
+    },
+    "vaal pyramid":{
+      "connections":[
+        "estuary",
+        "museum"
+      ]
+    },
+    "laboratory":{
+      "connections":[
+            "scriptorium",
+            "museum"
+      ]
+    },
+    "infested valley":{
+      "connections":[
+        "plateau"
+      ]
+    },
+    "courtyard":{
+      "connections":[
+        "temple",
+        "arena"
+      ]
+    },
+    "mineral pools":{
+      "connections":[
+        "moon temple"
+      ]
+    },
+    "geode":{
+      "connections":[
+            "sepulchre",
+            "vault"
+      ]
+    },
+    "armoury":{
+      "connections":[
+            "vault",
+      ]
+    },
+    "overgrown ruin":{
+      "connections":[
+            "vault",
+            "waste pool"
+      ]
+    },
+    "mud geyser":{
+      "connections":[
+        "waste pool"
+      ]
+    }
+  },
+  "tier_9":{
+    "tower":{
+      "connections":[
+        "shipyard",
+        "precinct"
+      ]
+    },
+    "estuary":{
+      "connections":[
+        "shipyard",
+        "arachnid tomb"
+      ]
+    },
+    "museum":{
+      "connections":[
+          "siege"
+      ]
+    },
+    "scriptorium":{
+      "connections":[
+        "siege"
+      ]
+    },
+    "plateau":{
+      "connections":[
+        "wasteland"
+      ]
+    },
+    "arena":{
+      "connections":[
+        "wasteland",
+        "pier"
+      ]
+    },
+    "temple":{
+      "connections":[
+        "cursed crypt",
+        "moon temple"
+      ]
+    },
+    "sepulchre":{
+      "connections":[
+        "orchard"
+      ]
+    },
+    "vault":{
+      "connections":[
+        "orchard "
+      ]
+    },
+    "waste pool":{
+      "connections":[
+            "bog",
+            "orchard"
+      ]
+    }
+  },
+  "tier_10":{
+    "precinct":{
+      "connections":[
+        "promenade"
+      ]
+    },
+    "shipyard":{
+      "connections":[
+          "coves"
+      ]
+    },
+    "arachnid tomb":{
+      "connections":[
+        "spider forest"
+      ]
+    },
+    "siege":{
+      "connections":[
+        "colonnaede"
+      ]
+    },
+    "wasteland":{
+      "connections":[
+        "pit"
+      ]
+    },
+    "pier":{
+      "connections":[
+        "pit"
+      ]
+    },
+    "cursed crypt":{
+      "connections":[
+        "mesa"
+      ]
+    },
+    "belfry":{
+      "connections":[
+        "waterways"
+      ]
+    },
+    "orchard":{
+      "connections":[
+        "waterways"
+      ]
+    },
+    "bog":{
+      "connections":[
+        "primordial pool",
+        "lair"
+      ]
+    }
+  },
+  "tier_11":{
+      "coves":{
+        "connections":[
+          "castle ruins"
+        ]
+      },
+      "spider forest":{
+        "connections":[
+          "castle ruins"
+        ]
+      },
+    "colonnade":{
+      "connections":[
+        "defiled cathedral"
+      ]
+    },
+    "factory":{
+      "connections":[
+        "villa",
+        "crystal ore"
+      ]
+    },
+    "pit":{
+      "connections":[
+        "villa",
+        "overgrown shrine"
+      ]
+    },
+    "mesa":{
+      "connections":[
+        "overgrown shrine"
+      ]
+    },
+    "waterways":{
+      "connections":[
+        "torture chamber"
+      ]
+    },
+    "primordial pool":{
+      "connections":[
+        "summit"
+      ]
+    },
+    "lair":{
+      "connections":[
+        "necropolis",
+        "racecourse"
+      ]
+    },
+    "promenade":{
+      "connections":[
+        "racecourse"
+      ]
+    },
+  },
+  "tier_12":{
+    "castle ruins":{
+      "connections":[
+        "ghetto"
+      ]
+    },
+    "defiled cathedral":{
+      "connections":[
+        "shrine"
+      ]
+    },
+    "crystal ore":{
+      "connections":[
+        "caldera"
+      ]
+    },
+    "villa":{
+      "connections":[
+        "park"
+      ]
+    },
+    "overgrown shrine":{
+      "connections":[
+        "desert spring"
+      ]
+    },
+    "torture chamber":{
+      "connections":[
+        "malformation"
+      ]
+    },
+    "summit":{
+      "connections":[
+        "core"
+      ]
+    },
+    "necropolis":{
+      "connections":[
+        "arsenal"
+      ]
+    },
+    "racecourse":{
+      "connections":[
+        "terrace"
+      ]
+    }
+  },
+  "tier_13":{
+    "ghetto":{
+      "connections":[
+        "dig"
+      ]
+    },
+    "shrine":{
+      "connections":[
+        "acid lakes"
+      ]
+    },
+    "caldera":{
+      "connections":[
+        "palace"
+      ]
+    },
+    "park":{
+      "connections":[
+        "palace"
+      ]
+    },
+    "desert spring":{
+      "connections":[
+        "crimson temple"
+      ]
+    },
+    "malformation":{
+      "connections":[
+        "dark forest"
+      ]
+    },
+    "core":{
+      "connections":[
+        "plaza"
+      ]
+    },
+    "arsenal":{
+      "connections":[
+        "colosseum",
+        "terrace"
+      ]
+    },
+    "terrace":{
+      "connections":[
+        "colosseum",
+        "arsenal"
+      ]
+    }
+  },
+  "tier_14":{
+    "dig":{
+      "connections":[
+        "carcass"
+      ]
+    },
+    "acid lakes":{
+      "connections":[
+        "carcass"
+      ]
+    },
+    "palace":{
+      "connections":[
+        "basilica"
+      ]
+    },
+    "crimson temple":{
+      "connections":[
+        "basilica"
+      ]
+    },
+    "dark forest":{
+      "connections":[
+        "reef"
+      ]
+    },
+    "plaza":{
+      "connections":[
+        "sunken city"
+      ]
+    },
+    "colosseum":{
+      "connections":[
+        "lava lake"
+      ]
+    }
+  },
+  "tier_15":{
+    "lava lake":{
+      "connections":[
+        "pit of the chimera"
+      ]
+    },
+    "carcass":{
+      "connections":[
+        "maze of the minotaur"
+      ]
+    },
+    "basilica":{
+      "connections":[
+        "forge of the phoenix"
+      ]
+    },
+    "reef":{
+      "connections":[
+        "lair of the hydra"
+      ]
+    },
+    "sunken city":{
+      "connections":[
+        "lair of the hydra"
+      ]
+    }
+  },
+  "tier_16":{
+    "lair of the hydra":{
+      "connections":[
+        "the shaper's realm"
+      ]
+    },
+    "pit of the chimera":{
+      "connections":[
+        "the shaper's realm"
+      ]
+    },
+    "maze of the minotaur":{
+      "connections":[
+        "the shaper's realm"
+      ]
+    },
+    "forge of the phoenix":{
+      "connections":[
+        "the shaper's realm"
+      ]
+    }
+  },
+  "tier_17":{
+      "the shaper's realm":{
+        "connections":[]
+      }
+  }
+}
